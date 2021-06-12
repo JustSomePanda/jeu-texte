@@ -1,0 +1,28 @@
+Par quoi avez-vous commencé?
+
+Pour bien m'organiser, j'ai décidé de commencer par un plan. En premier, j'ai écrit mon histoire. Ensuite, j'ai dessiné un diagramme de tous les choix et résultats possibles.
+Pour débuter la programmation, j'ai commencé avec ce que je croyais serait la partie la plus difficile, l'animation (mon élément innovateur).
+
+
+Si vous avez fait quelque chose d’innovateur, pourquoi l’avez-vous fait de cette façon-là ?
+
+Pour ce projet, j'ai décidé d'implémenter des animations ASCII. J'ai choisi cet élément puisque je trouvais que les images ASCII étaient trop simples et récemment, 
+l’animation m’a intéressé. Pour ajouter les animations, il fallait trouver des images. Pour quelques-unes, comme le lever du soleil, j’ai créé les images moi-même. 
+D’autre part, l’horloge est une image PNG converti en ASCII et les autres étaient des images trouvées en ligne. Ensuite, il fallait dire au programme de lire les 
+fichiers textes et de les mettre dans une liste pour qu’il puisse l’afficher. Finalement, le programme doit afficher chaque élément de la liste et effacer l’écran 
+après chaque image. Il boucle ceci jusqu’à ce qu’il termine la liste.
+
+
+Quel problème avez-vous rencontré ? Comment l’avez-vous résolu ?
+
+Une difficulté dont j’ai rencontré durant ce projet était de terminer le programme lorsque les énoncés étaient terminés. 
+Puisque la fonction « choix_utilisateur » se boucle indéfiniment, je reçois une erreur lorsque la liste d’énoncé est finie. 
+La solution était facile mais ceci m’a pris beaucoup de temps pour le résoudre. La façon dont je l’ai résolu était d’utiliser 
+un « try, except » pour ignorer l’erreur, mais je crois qu’il y a une façon plus optimisée pour le faire.
+
+
+Qu’avez-vous appris que vous pouvez appliquer à de futurs projets ?	
+
+Durant ce projet, j'ai dû faire beaucoup de recherche pour implémenter mon élément innovateur puisque je n'ai pas su comment ajouter un graphique dans la console. 
+J'ai alors appris comment importer différents fichiers texte dans un code Python. J'ai aussi appris comment manipuler le temps pour afficher du texte, changer la 
+couleur du texte et comment effacer l'écran. Ce projet m’a aussi permis de mieux comprendre la façon dont les listes imbriqués fonctionnent.
